@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+    <title>Gallary App</title>
+    
+</head>
+
+<body>
+
+    <header class="top-header">
+        <h3>Second Assignment Gallary by -- <span style="color: lightblue;">Nitin Sayshe</span></h3>
+    </header>
+    <section class="grid-container">
+        <div class="image-view-column">
+            <div class="small-image">
+                <img src="images/1.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh1)" id="btnh1" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="medium-image">
+                <img src="images/2.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh2)" id="btnh2" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+                
+            </div>
+            <div class="big-image">
+                <img src="images/3.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh3)" id="btnh3" class="btn"><i class="fas fa-heart"></i></Button>
+    
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+
+        </div>
+        <div class="image-view-column">
+
+            <div class="big-image">
+                <img src="images/4.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh4)" id="btnh4" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="small-image">
+                <img src="images/5.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh5)" id="btnh5" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="medium-image">
+                <img src="images/6.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh6)" id="btnh6" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+
+        </div>
+        <div class="image-view-column">
+            <div class="medium-image">
+                <img src="images/7.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh12)" id="btnh12" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+
+            </div>
+            <div class="big-image">
+                <img src="images/8.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh7)" id="btnh7" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="small-image">
+                <img src="images/9.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh8)" id="btnh8" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+        </div>
+        <div class="image-view-column">
+            <div class="medium-image">
+                <img src="images/10.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh9)" id="btnh9" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="small-image">
+                <img src="images/11.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh10)" id="btnh10" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+            <div class="big-image">
+                <img src="images/bruce-lee.jpg" alt="">
+                <div class="image-desc">
+                    <Button onclick="onClick(btnh11)" id="btnh11" class="btn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <div class="image-details">
+                    Bruce Lee
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <header class="bottom-header">    
+
+    </header>
+    <script>
+        var btnh1 = document.getElementById('btnh1');
+var btnh2 = document.getElementById('btnh2');
+var btnh3 = document.getElementById('btnh3');
+var btnh4 = document.getElementById('btnh4');
+var btnh5 = document.getElementById('btnh5');
+var btnh6 = document.getElementById('btnh6');
+var btnh7 = document.getElementById('btnh7');
+var btnh8 = document.getElementById('btnh8');
+var btnh9 = document.getElementById('btnh9');
+var btnh10 = document.getElementById('btnh10');
+var btnh11 = document.getElementById('btnh11');
+var btnh12 = document.getElementById('btnh12');
+
+
+function onClick(element) {
+    
+    if (element.style.color == 'whitesmoke') {
+        element.style.color = "rgb(226, 36, 36)";
+    }
+    else {
+        element.style.color = "whitesmoke";
+    }
+}
+    </script>
+</body>
+
+</html>
